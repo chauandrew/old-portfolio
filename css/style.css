@@ -57,3 +57,7 @@ footer.page-footer {
   margin: 0;
   padding-top: 0;
 }
+
+nav .brand-logo {
+  position: relative;
+}
