@@ -63,6 +63,21 @@ nav .brand-logo {
 }
 
 .landing-banner {
-  margin-top: 4%;
-  margin-bottom: 4%;
+  min-height: -webkit-fill-available;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+}
+
+.project-container {
+  min-height: -webkit-fill-available;
+}
+
+.darken-img {
+  /* filter: brightness(0.9); */
+}
+
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  padding: 5px 0;
 }
