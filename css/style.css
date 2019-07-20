@@ -6,10 +6,10 @@
  * Made By MaterializeCSS.com
  */
 
-nav ul a,
-nav .brand-logo {
-  color: #444;
-  font-size: x-large;
+.brand-logo {
+  font-size: x-large !important;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 p {
@@ -60,4 +60,9 @@ footer.page-footer {
 
 nav .brand-logo {
   position: relative;
+}
+
+.landing-banner {
+  margin-top: 4%;
+  margin-bottom: 4%;
 }
