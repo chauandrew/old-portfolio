@@ -63,17 +63,50 @@ nav .brand-logo {
 }
 
 .landing-banner {
-  min-height: -webkit-fill-available;
   padding-top: 15vh;
-  padding-bottom: 15vh;
+}
+
+@media only screen and (max-width : 600px) {
+  .landing-banner {
+    min-height: -webkit-fill-available;
+    padding-top: 5vh;
+  }
+}
+
+.landing-text {
+  width: 50%;
+}
+
+@media only screen and (min-width: 600px) {
+  .landing-text {
+    width: 75%;
+  }
 }
 
 .project-container {
-  min-height: -webkit-fill-available;
+  width: 85%;
+  margin: auto;
 }
 
 .bg-text {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  background-color: rgb(20,20,20); /* Fallback color */
+  background-color: rgba(20,20,20, 0.7); /* Black w/opacity/see-through */
   padding: 5px 0;
+}
+
+.align-bot {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+}
+
+.align-mid {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+}
+
+.scroll-chevron {
+  margin-top: 5em;
+  margin-bottom: 1em;
 }

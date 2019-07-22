@@ -7,132 +7,90 @@
   <title>Andrew Chau Portfolio</title>
 
   <!-- CSS  -->
-  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
+<body class="blue-grey lighten-4">
   <!-- Landing header -->
   <div class="section grey darken-3 valign-wrapper">
     <div class="container landing-banner center">
       <div class="row">
         <h1 class="col s12 center white-text text-lighten-2">Hi, I'm Andrew</h1>
-        <p class="col s6 push-s3 center white-text text-lighten-2">
-          Welcome to my personal website. I'm from Thousand Oaks, CA and am now a third year computer science major at UCLA. I won't waste your time with a long bio — feel free to continue scrolling down the page.
-          <br></br>
+      </div>
+      <div class="row">
+        <p class="landing-text col s12 white-text text-lighten-2">
+          Welcome to my personal website. I'm from Thousand Oaks, CA and am now a third year computer science major at UCLA.<br>
+          You can explore all of my personal projects here, just scroll on.<br><br>
           <b>Thanks for stopping by.</b>
         </p>
       </div>
-      <div class="row"> <!-- social links -->
+      <!-- social links -->
+      <div class="row"> 
         <div class="col s12">
           <a href="https://github.com/chauandrew"><i class="brand-logo fa fa-github grey-text text-lighten-2"></i></a>
           <a href="https://linkedin.com/in/chau-andrew/"><i class="brand-logo fa fa-linkedin grey-text text-lighten-2"></i></a>
           <a href="mailto: andrewchau333@ucla.edu"><i class="brand-logo fa fa-envelope grey-text text-lighten-2"></i></a>
         </div>
       </div>
-      <br></br>
-      <div class="row"> <!-- Project button links -->
-        <div class="col s2 push-s2">
-          <a class="grey btn" href="#project1">Lead Capture</a>
-        </div>
-        <div class="col s2 push-s2">
-          <a class="grey btn" href="#project2">TuneSearch</a>
-        </div>
-        <div class="col s2 push-s2">
-            <a class="grey btn" href="#project3">Timelapse</a>
-        </div>
-        <div class="col s2 push-s2">
-            <a class="grey btn" href="#">Project 4</a>
-        </div>
+      <!-- scroll chevron -->
+      <div class="row scroll-chevron">
+        <a href="#project-header" class="btn-floating blue accent-4">
+          <i class="small grey-text text-lighten-2 material-icons">keyboard_arrow_down</i>
+        </a>
       </div>
     </div>
   </div>
-  <div class="section">
+
+  <!-- Project header -->
+  <div class="section white" id="project-header">
     <div class="container center">
       <div class="row"><h2>My Projects</h2></div>
       <div class="row">
         <p>A brief description about how i have projects or some lorem ipsum business</p>
+        <br></br>
       </div>
     </div>
   </div>
+
   <!-- Project 1 -->
-  <div class="divider"></div>
   <div class="project-container" id="project1">
-  <!-- Project Image -->
-    <div class="parallax-container valign-wrapper">
-      <div class="section no-pad-bot">
-        <div class="bg-text center">
+    <!-- Project Image -->
+    <div class="row"></div>
+    <div class="parallax-container">
+      <!-- Default title display -->
+      <div class="no-pad-bot align-mid proj-title">
+        <div class="bg-text center"> 
           <h4 class="header light">SuperMoney Lead Capture</h4>
         </div>
       </div>
+        <!-- Description (hidden default) -->
+      <div class="no-pad-bot align-bot proj-desc" style="display:none">
+      <!-- <div class="no-pad-bot align-bot proj-desc" > -->
+        <div class="container">
+          <div class="row"><h3 class="left light">SuperMoney Lead Capture:</h3></div> 
+          <div class="row">
+            <p class="light">Brief description of what the project is, what it does, and generally all of that basic information. </p>
+            <span>Technologies Used: JavaScript, Node.js, jQuery</span>
+            <br></br>
+          </div>
+          <div class="row"></div> 
+          <div class="row">
+            <a class="blue accent-4 btn btn-small">Visit Site</a>
+          </div>
+        </div>
+      </div>
+      <!-- Parallax (image) declaration -->
       <div class="parallax"><img src="images/lead_capture.png"></div>
     </div>
-    <div class="divider"></div>
-    <!-- Project Description -->
-    <div class="container"> 
-      <div class="section">
-        <div class="row">
-          <div class="col s12 center">
-            <h3><i class="mdi-content-send brown-text"></i></h3>
-            <p class="left-align light">Description of Project Here. Probably using lists or a table or something like that. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
+
   <!-- Project 2 -->
-  <div class="divider"></div>
-  <div class="project-container" id="project2">
-      <!-- Project Image -->
-    <div class="parallax-container valign-wrapper">
-      <div class="section no-pad-bot">
-        <div class="bg-text center">
-          <h4 class="header light">TuneSearch</h4>
-        </div>
-      </div>
-      <div class="parallax"><img src="images/tunesearch_home.png"></div>
-    </div>
-    <div class="divider"></div>
-    <!-- Project Description -->
-    <div class="container"> 
-      <div class="section">
-        <div class="row">
-          <div class="col s12 center">
-            <h3><i class="mdi-content-send brown-text"></i></h3>
-            <p class="left-align light">Description of Project Here. Probably using lists or a table or something like that. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <!-- Project 3 -->
-  <div class="divider"></div>
-  <div class="project-container" id="project3">
-      <!-- Project Image -->
-    <div class="parallax-container valign-wrapper">
-      <div class="section no-pad-bot">
-        <div class="bg-text center">
-          <h4 class="header light">Timelapse Photo</h4>
-        </div>
-      </div>
-      <div class="parallax"><img src="images/timelapse.jpg"></div>
-    </div>
-    <div class="divider"></div>
-    <!-- Project Description -->
-    <div class="container"> 
-      <div class="section">
-        <div class="row">
-          <div class="col s12 center">
-            <h3><i class="mdi-content-send brown-text"></i></h3>
-            <p class="left-align light">Description of Project Here. Probably using lists or a table or something like that. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
+  <!-- Footer -->
+  <div class="row"></div>
   <footer class="page-footer grey darken-3">
   <footer class="footer-copyright">
     <div class="container">
