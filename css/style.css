@@ -63,7 +63,8 @@ nav .brand-logo {
 }
 
 .landing-banner {
-  padding-top: 15vh;
+  padding-top: 10%;
+  min-height: -webkit-fill-available;
 }
 
 @media only screen and (max-width : 600px) {
@@ -74,11 +75,13 @@ nav .brand-logo {
 }
 
 .landing-text {
+  word-wrap: break-word;
   width: 50%;
 }
 
 @media only screen and (min-width: 600px) {
   .landing-text {
+    word-wrap: break-word;
     width: 75%;
   }
 }
@@ -107,6 +110,9 @@ nav .brand-logo {
 }
 
 .scroll-chevron {
+  position: absolute;
+  width: 100%;
+  text-align: center;
   margin-top: 5em;
-  margin-bottom: 1em;
+  bottom: 1em;
 }
