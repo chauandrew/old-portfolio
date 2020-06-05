@@ -43,8 +43,65 @@
     <!--</div>-->
   </div>
   
-  <!-- Project 1 -->
-  <div class="project-container" id="project1">
+  <!-- Project -->
+  <div class="project-container">
+    <!-- Project Image -->
+    <div class="row"></div>
+    <div class="parallax-container">
+      <!-- Default title display -->
+      <div class="no-pad-bot align-mid proj-title">
+        <div class="bg-text center"> 
+          <h4 class="header light">Sharded Key-Value Store</h4>
+        </div>
+      </div>
+      <!-- Description (hidden default) -->
+      <div class="no-pad-bot align-bot proj-desc" style="display:none">
+        <div class="container">
+          <div class="row"><h3 class="left light">Sharded Key-Value Store</h3></div> 
+          <div class="row">
+            <p>A distributed key-value server featuring a fault-tolerant configuration service and replicated server groups. The configuration service receives requests to join and leave from replicated server groups and maintains a consistent configuration to all groups. The configuration service and server groups utilize a self-written Paxos library to maintain consistency.</p>
+            <div class="row"></div>
+            <span>Technologies Used: Go</span>
+            <br>
+          </div>
+          <div class="row"></div> 
+        </div>
+      </div>
+      <!-- Parallax (image) declaration -->
+      <div class="parallax"><img src="images/kvstore.png"></div>
+    </div>
+  </div>
+
+  <!-- Project -->
+  <div class="project-container">
+    <!-- Project Image -->
+    <div class="row"></div>
+    <div class="parallax-container">
+      <!-- Default title display -->
+      <div class="no-pad-bot align-mid proj-title">
+        <div class="bg-text center"> 
+          <h4 class="header light">Taxi Ride Duration Model</h4>
+        </div>
+      </div>
+      <!-- Description (hidden default) -->
+      <div class="no-pad-bot align-bot proj-desc" style="display:none">
+        <div class="container">
+          <div class="row"><h3 class="left light">Taxi Ride Duration Model:</h3></div> 
+          <div class="row">
+            <p>A machine learning model trained on over 80,000 data points to predict taxi ride durations in Manhattan. Utilizes complex feature selection and engineering, such as using PCA to separate the city into Upper, Lower, and Midtown Manhattan. Cross validation was applied across several SVM kernels and hyperparameters, ultimately resulting in an SVM with a Gaussian RBF kernel </p>
+            <div class="row"></div>
+            <span>Technologies Used: Python3, Scikit-Learn, Jupyter Notebooks</span>
+            <br>
+          </div>
+          <div class="row"></div> 
+        </div>
+      </div>
+      <!-- Parallax (image) declaration -->
+      <div class="parallax"><img src="images/taxi-cropped.png"></div>
+    </div>
+  </div>
+  <!-- Project -->
+  <div class="project-container">
     <!-- Project Image -->
     <div class="row"></div>
     <div class="parallax-container">
@@ -75,8 +132,8 @@
     </div>
   </div>
 
-  <!-- Project 2 -->
-  <div class="project-container" id="project2">
+  <!-- Project -->
+  <div class="project-container">
     <!-- Project Image -->
     <div class="row"></div>
     <div class="parallax-container">
@@ -104,8 +161,8 @@
     </div>
   </div>
 
-  <!-- Project 3 -->
-  <div class="project-container" id="project3">
+  <!-- Project -->
+  <div class="project-container">
     <!-- Project Image -->
     <div class="row"></div>
     <div class="parallax-container">
@@ -120,7 +177,7 @@
         <div class="container">
           <div class="row"><h3 class="left light">TimeLapse Photo:</h3></div> 
           <div class="row">
-            <p>Brief description of the project</p>
+            <p>A command line tool that converts a timelapse video into a photo. It samples frames throughout the video and compiles them together to produce an image like the one displayed here.</p>
             <div class="row"></div>
             <span>Technologies Used: C++, OpenCV</span>
             <br>
