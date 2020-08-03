@@ -116,3 +116,7 @@ nav .brand-logo {
   margin-top: 5em;
   bottom: 1em;
 }
+
+.no-uppercase {
+  text-transform: none;
+}
